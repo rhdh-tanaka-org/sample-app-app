@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-app
+  description: test description
+spec:
+  type: service
+  system: test-system
+  lifecycle: production
+  owner: group:rhdh-tanaka-org/team-tanaka
+  git: github
+  git_host_url: github.com
+  git_owner_name: rhdh-tanaka-org
+
